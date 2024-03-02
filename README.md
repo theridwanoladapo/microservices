@@ -8,8 +8,6 @@ This repository contains a Laravel-based microservices application with two modu
 - [Running Docker Containers](#running-docker-containers)
 - [Running Tests](#running-tests)
 - [Endpoints Documentation](#endpoints-documentation)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Cloning the Repository
@@ -37,3 +35,7 @@ docker-compose exec web php artisan test
 
 docker-compose exec users-service php artisan dusk
 ```
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
